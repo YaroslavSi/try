@@ -1,0 +1,85 @@
+.ukraine {
+    width: 300px;
+    margin: 5px auto;
+    height: 200px;
+    position: relative;
+}
+
+.ukraine .ukraine_yellow {
+    background: #FFD100;
+    height: 50%;
+}
+
+.ukraine .ukraine_blue {
+    background: #005BBB;
+    height: 50%;
+}
+
+/* Флаг Японії */
+.japan {
+    width: 300px;
+    margin: 5px auto;
+    height: 200px;
+    border: solid 1px black;
+}
+
+.japan .japan_circle {
+    background: #EF4135;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: 40px 90px;
+}
+
+/* Флаг ісландії */
+.iceland {
+    width: 300px;
+    height: 200px;
+    margin: 5px auto;
+    background:                
+                linear-gradient(to right,
+                    transparent 60px,
+                    #ef2b2d 60px 100px,
+                    transparent 100px),
+
+                linear-gradient(to bottom,
+                    transparent 60px,
+                    #ef2b2d 60px 100px,
+                    transparent 100px),
+
+                linear-gradient(to bottom,
+                    transparent 40px,
+                    #ffffff 40px 120px,
+                    transparent 120px),
+
+                linear-gradient(to right,
+                    transparent 40px,
+                    #ffffff 40px 120px,
+                    transparent 120px),
+                    
+                    #002868;
+    border: solid 1px black;
+}
+
+/* Флаг чехії*/
+.czech {
+    height: 200px;
+    width: 300px;
+    margin: 5px auto;
+    border: solid 1px #000000;
+    background: linear-gradient(to bottom,
+        white 50%,
+        red 50%);
+}
+
+.czech::after {
+    display: block;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-left: 150px solid #0000ff;
+    border-bottom: 100px solid transparent;
+}
+
+
