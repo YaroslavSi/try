@@ -1,9 +1,12 @@
+@import 'media.css';
+
 body {
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     min-height: 100vh;
     background-color: #f0f0f0;
 }
@@ -40,6 +43,7 @@ body {
     display: block;
     border-radius: 50%;
 }
+
 
 @media screen and (max-width: 900px) {
     .image-grid {
